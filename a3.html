@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>111570023甄亮璽</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="mystyle.css" />
+  <script type="text/javascript">
+    
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="site_content">  
+	  <div id="menubar">
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="a1.html">第一題</a></li>
+          <li><a href="a2.html">第二題</a></li>
+          <li><a href="a3.html">第三題</a></li>
+          <li><a href="a4.html">GSC圖片</a></li>
+          <li><a href="a5.html">GA圖片</a></li>
+          <li><a href="a6.html">挑戰題</a></li>
+        </ul>
+	  </div><!--close menubar-->
+      <div id="header">  
+        <h1>111570023甄亮璽</h1>	
+      </div><!--close header-->	
+	  <div id="banner_image">
+	    <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/slide1.jpg" alt="" />
+            <img src="images/slide2.jpg" alt="" />
+            <img src="images/slide3.jpg" alt="" />
+		  </div><!--close slider-->
+		</div><!--close slider-wrapper-->
+	  </div><!--close banner_image-->		
+      <div id="content">
+        <div class="content_item">
+          <h2>Latest Projects</h2>
+          <h2 class="s4">滑鼠事件</h2>
+          <button id="actionButton"
+                  onmouseover="mouseOver()"
+                  onmouseout="mouseOut()"
+                  onmousedown="mouseDown()"
+                  onmouseup="mouseUp()">
+              各種滑鼠事件
+          </button>
+          <p id="statusText" class="s3">滑鼠離開</p>
+      
+          <script>
+              // 滑鼠滑過事件
+              function mouseOver() {
+                  const button = document.getElementById("actionButton");
+                  button.style.color = "blue";
+                  button.style.backgroundColor = "yellow";
+                  button.style.fontStyle = "normal";
+                  document.getElementById("statusText").textContent = "滑鼠滑過";
+              }
+      
+              // 滑鼠離開事件
+              function mouseOut() {
+                  const button = document.getElementById("actionButton");
+                  button.style.color = "red";
+                  button.style.backgroundColor = "yellow";
+                  button.style.fontStyle = "normal";
+                  document.getElementById("statusText").textContent = "滑鼠離開";
+              }
+      
+              // 滑鼠按下事件
+              function mouseDown() {
+                  const button = document.getElementById("actionButton");
+                  button.style.color = "yellow";
+                  button.style.backgroundColor = "blue";
+                  button.style.fontStyle = "italic";
+                  document.getElementById("statusText").textContent = "滑鼠按下";
+              }
+      
+              // 滑鼠放開事件
+              function mouseUp() {
+                  const button = document.getElementById("actionButton");
+                  button.style.color = "green";
+                  button.style.backgroundColor = "yellow";
+                  button.style.fontStyle = "normal";
+                  document.getElementById("statusText").textContent = "滑鼠放開";
+              }
+          </script>
+		  <h3>Example 1</h3>
+          <br/>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis sapien vel orci posuere tristique quis vitae nisi. Sed porta venenatis auctor. Fusce iaculis ligula odio. Etiam malesuada dui sit amet eros pharetra interdum.</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+		    <br style="clear:both" />
+          
+		    <h3>Example 2</h3>
+            <br/>
+		  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis sapien vel orci posuere tristique quis vitae nisi. Sed porta venenatis auctor. Fusce iaculis ligula odio. Etiam malesuada dui sit amet eros pharetra interdum.</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+	      <br style="clear:both" />
+	      <p>&nbsp;</p>
+		</div><!--close content_item-->
+	    
+		  <div class="sidebar_container">   		  
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->     		
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+		  	    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->  
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->  
+           </div><!--close sidebar_container-->	
+           <br style="clear:both;" />
+        </div><!--close content-->	
+      </div><!--close site_content-->	
+    <div id="footer">  
+      @版權所有 2024 by 111570023 甄亮璽
+    </div><!--close footer-->	
+  </div><!--close main-->	
+</body>
+</html>

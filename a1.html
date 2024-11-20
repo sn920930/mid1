@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>111570023甄亮璽</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="mystyle.css" />
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</head>
+
+<body>
+  
+  <div id="main">
+    <div id="site_content">  	
+	  <div id="menubar">
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="a1.html">第一題</a></li>
+          <li><a href="a2.html">第二題</a></li>
+          <li><a href="a3.html">第三題</a></li>
+          <li><a href="a4.html">GSC圖片</a></li>
+          <li><a href="a5.html">GA圖片</a></li>
+          <li><a href="a6.html">挑戰題</a></li>
+        </ul>
+	  </div><!--close menubar-->
+      <div id="header">  
+        <h1>111570023甄亮璽</h1>	
+      </div><!--close header-->	
+	  <div id="banner_image">
+	    <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/slide1.jpg" alt="" />
+            <img src="images/slide2.jpg" alt="" />
+            <img src="images/slide3.jpg" alt="" />
+		  </div><!--close slider-->
+		</div><!--close slider-wrapper-->
+	  </div><!--close banner_image-->			
+      <div id="content">
+        <div class="content_item">
+          <h2>Our Work</h2>
+          <h2 class="s1">會員登入</h2>
+          <form id="loginForm">
+              <label class="s4" for="username">帳號</label><br>
+              <input type="text" id="username" class="s3" required><br><br>
+      
+              <label class="s4" for="password">密碼</label><br>
+              <input type="password" id="password" class="s3" required><br><br>
+      
+              <label class="s4" for="birthday">生日</label><br>
+              <input type="date" id="birthday" class="s3" required><br><br>
+      
+              <button class="s2" type="button" onclick="checkLogin()">登入</button>
+          </form>
+          <p id="result" class="s2"></p>
+      
+          <script>
+             
+              function checkLogin() {
+                  const username = document.getElementById("username").value;
+                  const password = document.getElementById("password").value;
+                  const birthday = document.getElementById("birthday").value;
+      
+                  const result = document.getElementById("result");
+      
+                
+                  if (password === "123") {
+                      result.innerHTML = `<b>${username}</b>，你已經成功登入網站<br>你的生日是<b>${birthday}</b>`;
+                  } else {
+                      result.innerHTML = `<b>${username}</b>，你的密碼輸入錯誤`;
+                  }
+              }
+          </script>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper, massa eu iaculis imperdiet, turpis nunc aliquam augue, eget condimentum lectus velit vitae urna. Curabitur eu feugiat erat. Nam et arcu sit amet magna facilisis accumsan vel nec mauris. Vivamus interdum adipiscing molestie. Vestibulum sollicitudin massa eget turpis cursus eget ullamcorper odio pharetra. Sed dictum lacus sed erat molestie id aliquet enim vestibulum. Nullam malesuada, massa feugiat feugiat blandit, quam metus tincidunt risus, in condimentum nisi eros a metus. Cras sapien mi, porttitor eu semper sit amet, cursus eget lacus. Aliquam sed dolor mauris, id blandit ligula. Ut a purus justo. Donec metus dui, sodales eu placerat in, placerat ut massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          <h3>Our services include:</h3>
+    	    <ul>
+   			  <li>Service 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    	  	  <li>Service 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+   			  <li>Service 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+   			  <li>Service 4 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+   		    </ul>
+		</div><!--close content_item-->
+	      
+		  <div class="sidebar_container">  		  
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->     		
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+		  	    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->  
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->  
+           </div><!--close sidebar_container-->	
+           <br style="clear:both;" />
+        </div><!--close content-->	
+    </div><!--close site_content-->	
+    <div id="footer">  
+      @版權所有 2024 by 111570023 甄亮璽
+    </div><!--close footer-->
+  </div><!--close main-->	
+</body>
+</html>
